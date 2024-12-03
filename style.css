@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.outer-box{
+    height: 45vh;
+    width: 45vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+} 
+.box-top{
+    width: 100%;
+    height:120px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid orange;
+}
+.box-logo-out{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:3px;
+    font-family: Arail;
+}
+.box-logo-out p{
+    font-size: 0.85rem;
+    color: black;
+}
+#box_logo{
+    height:80px;
+    width: 140px;
+    margin-top: 10px;
+    background-image: url("nec-logo.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-title-out{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.box-title-out hr{
+    width: 75%;
+   
+}
+.title-address{
+    height: 20%;
+    color: white;
+    margin-top: 5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 0, 139);
+}
+.title-row{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: rgb(151, 0, 151);
+    font-weight:100;
+}
+.row2{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.mega-midel-box{
+    height:60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid orange;
+    padding-bottom: 2px;
+}
+.midle-box{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.student-photo{
+    height: 80%;
+    width: 15%;
+    border: 2px solid black;
+    color: black;
+    font-size: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-self: flex-end;
+   background-image: url("vinay_photo.jpg");
+   background-size: cover;
+   background-position: center;
+}
+.student-information{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial;
+    gap:20px;
+}
+.student-information h3{
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: red;
+}
+.student-information-outer-box{
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    width: 100%;
+}
+.information-box p{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.box1 p{
+    color: red;
+}
+.box1{
+    margin-left: 20px;
+}
+
+.mega-last-box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-last1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar-code{
+    height: 100%;
+    width: 100%;
+    background-image: url("barcode.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-last{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    /* margin-top: 20px; */
+}
+.bottum-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-self:self-end;
+    /* margin-top: 20px; */
+}
+.right{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(131, 8, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: white;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#_last{
+    margin-right: 10px;
+}
+#_start{
+    margin-left: 10px;
+}
+#drop{
+    color: red;
+}
